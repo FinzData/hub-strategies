@@ -1,0 +1,38 @@
+{
+  "description": "'Momentum Strategies in Commodity Futures Markets' found buying the best 12-month performers among commodities beats buying the worst. Approximation: commodity ETFs, top 4 by 12-1 month return. Falsified if it does not beat an equal-weight commodity basket.",
+  "dsr": 0.1302,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "commodity-momentum-12-1-top-4-of-13-commodity-etfs-after-mif-b37817",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 4,
+    "universe": [
+      "GLD",
+      "SLV",
+      "CPER",
+      "PALL",
+      "PPLT",
+      "USO",
+      "BNO",
+      "UGA",
+      "UNG",
+      "DBA",
+      "CORN",
+      "WEAT",
+      "SOYB"
+    ]
+  },
+  "title": "Commodity momentum 12-1 \u00b7 top 4 of 13 commodity ETFs (after Miffre & Rallis 2007)",
+  "universe": "custom"
+}

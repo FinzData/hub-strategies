@@ -1,0 +1,24 @@
+{
+  "description": "Diversifying across four documented style premia gives a steadier return than any one: earnings yield, ROE, 12-1 momentum and low 1-year volatility, equally ranked. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "multi-factor-defensive-value-quality-momentum-low-volatility-570a20",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(earnings_yield) + rank(roe) + rank(ret(252) - ret(21)) - rank(vol(252))",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Multi-factor defensive \u00b7 value, quality, momentum, low volatility \u00b7 top 50 of the Top 500 (after Man Group and AQR style premia) \u00b7 long/short",
+  "universe": "top500"
+}

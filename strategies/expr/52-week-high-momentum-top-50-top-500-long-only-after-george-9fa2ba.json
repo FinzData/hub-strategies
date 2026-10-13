@@ -1,0 +1,24 @@
+{
+  "description": "Stocks trading near their 52-week high keep outperforming because investors anchor on the high and under-react to good news. Ranks on price relative to the 252-day high. Falsified if it does not beat the benchmark after 10 bps costs.",
+  "dsr": 0.2054,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "52-week-high-momentum-top-50-top-500-long-only-after-george-9fa2ba",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(dist_high(252))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "52-week-high momentum \u00b7 top 50 \u00b7 Top 500 \u00b7 long only (after George & Hwang 2004)",
+  "universe": "top500"
+}

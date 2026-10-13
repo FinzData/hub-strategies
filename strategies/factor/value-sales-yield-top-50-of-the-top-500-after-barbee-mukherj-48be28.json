@@ -1,0 +1,25 @@
+{
+  "description": "Revenue over market value is harder to flatter than earnings and still predicts returns. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "factor",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-48be28",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "ascending": false,
+      "field": "sales_yield",
+      "type": "factor"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Value \u00b7 sales yield \u00b7 top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) \u00b7 long/short",
+  "universe": "top500"
+}

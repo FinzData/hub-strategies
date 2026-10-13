@@ -1,0 +1,28 @@
+{
+  "description": "'Currency Momentum Strategies' found past winners among currencies keep winning for up to a year. Approximation with three currency ETFs: hold the one with the best 3-month return. Falsified if it does not beat holding all three equally.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(ret(63))",
+      "type": "expr"
+    },
+    "start": "2008-01-01",
+    "top_n": 1,
+    "universe": [
+      "UUP",
+      "FXE",
+      "FXY"
+    ]
+  },
+  "title": "Currency momentum \u00b7 euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)",
+  "universe": "custom"
+}

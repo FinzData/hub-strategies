@@ -1,0 +1,40 @@
+{
+  "description": "Tests whether the low-volatility anomaly seen in stocks also holds in crypto: hold the 3 coins with the lowest 60-day volatility, rebalanced weekly. Falsified if its Sharpe ratio is not above the basket's.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "rank(-vol(60))",
+      "type": "expr"
+    },
+    "start": "2018-01-01",
+    "top_n": 3,
+    "universe": [
+      "BTC-USD",
+      "ETH-USD",
+      "SOL-USD",
+      "XRP-USD",
+      "ADA-USD",
+      "DOGE-USD",
+      "AVAX-USD",
+      "LINK-USD",
+      "LTC-USD",
+      "BCH-USD",
+      "DOT-USD",
+      "UNI-USD",
+      "AAVE-USD",
+      "XLM-USD",
+      "ATOM-USD"
+    ]
+  },
+  "title": "Crypto low volatility \u00b7 3 lowest-volatility of 15 coins",
+  "universe": "custom"
+}

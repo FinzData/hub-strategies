@@ -1,0 +1,1522 @@
+[
+  {
+    "dsr": 0.8841,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "qqq-50-200-moving-average-trend-d8ad99",
+    "title": "QQQ 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/qqq-50-200-moving-average-trend-d8ad99"
+  },
+  {
+    "dsr": 0.8676,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "qqq-20-100-moving-average-trend-1de48a",
+    "title": "QQQ 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/qqq-20-100-moving-average-trend-1de48a"
+  },
+  {
+    "dsr": 0.8596,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-50-top-500-long-only-d0b3de",
+    "title": "Momentum 126d skip 0 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-50-top-500-long-only-d0b3de"
+  },
+  {
+    "dsr": 0.8552,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-50-top-500-long-only-2c6bdf",
+    "title": "Momentum 63d skip 0 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-50-top-500-long-only-2c6bdf"
+  },
+  {
+    "dsr": 0.8457,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-20-top-500-long-only-e238d9",
+    "title": "Momentum 126d skip 0 \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-20-top-500-long-only-e238d9"
+  },
+  {
+    "dsr": 0.8319,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-20-top-500-long-only-817559",
+    "title": "Momentum 63d skip 0 \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-20-top-500-long-only-817559"
+  },
+  {
+    "dsr": 0.8259,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "gld-50-200-moving-average-trend-3fa4e0",
+    "title": "GLD 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/gld-50-200-moving-average-trend-3fa4e0"
+  },
+  {
+    "dsr": 0.8219,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "gld-20-100-moving-average-trend-cf1e8e",
+    "title": "GLD 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/gld-20-100-moving-average-trend-cf1e8e"
+  },
+  {
+    "dsr": 0.8023,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-20-top-500-long-only-f5c653",
+    "title": "Momentum 126d skip 21 \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-20-top-500-long-only-f5c653"
+  },
+  {
+    "dsr": 0.8005,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-50-top-1000-long-only-28f164",
+    "title": "Momentum 252d skip 21 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-50-top-1000-long-only-28f164"
+  },
+  {
+    "dsr": 0.7793,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "xlk-50-200-moving-average-trend-4daf6c",
+    "title": "XLK 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/xlk-50-200-moving-average-trend-4daf6c"
+  },
+  {
+    "dsr": 0.7707,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-50-top-500-long-only-b9576c",
+    "title": "Momentum 126d skip 21 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-50-top-500-long-only-b9576c"
+  },
+  {
+    "dsr": 0.7651,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-50-top-500-long-only-4ee068",
+    "title": "Momentum 252d skip 21 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-50-top-500-long-only-4ee068"
+  },
+  {
+    "dsr": 0.7648,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-50-top-1000-long-only-1561e2",
+    "title": "Momentum 252d skip 0 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-50-top-1000-long-only-1561e2"
+  },
+  {
+    "dsr": 0.7647,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "xlk-20-100-moving-average-trend-71a0e9",
+    "title": "XLK 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/xlk-20-100-moving-average-trend-71a0e9"
+  },
+  {
+    "dsr": 0.7606,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-50-top-500-long-only-8f69cb",
+    "title": "Momentum 252d skip 0 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-50-top-500-long-only-8f69cb"
+  },
+  {
+    "dsr": 0.736,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-20-top-500-long-only-598236",
+    "title": "Momentum 252d skip 0 \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-20-top-500-long-only-598236"
+  },
+  {
+    "dsr": 0.7254,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-20-top-500-long-short-0dc2d1",
+    "title": "Momentum 63d skip 0 \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-20-top-500-long-short-0dc2d1"
+  },
+  {
+    "dsr": 0.7061,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-50-top-500-long-only-cac20b",
+    "title": "Momentum 63d skip 21 \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-50-top-500-long-only-cac20b"
+  },
+  {
+    "dsr": 0.7022,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-50-top-1000-long-only-41936a",
+    "title": "Momentum 126d skip 21 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-50-top-1000-long-only-41936a"
+  },
+  {
+    "dsr": 0.7014,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-20-top-500-long-short-448d18",
+    "title": "Momentum 252d skip 21 \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-20-top-500-long-short-448d18"
+  },
+  {
+    "dsr": 0.7012,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-20-top-500-long-short-2602d9",
+    "title": "Momentum 126d skip 0 \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-20-top-500-long-short-2602d9"
+  },
+  {
+    "dsr": 0.7007,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-20-top-500-long-short-6f8910",
+    "title": "Momentum 252d skip 0 \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-20-top-500-long-short-6f8910"
+  },
+  {
+    "dsr": 0.6934,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-50-top-1000-long-short-e1bab6",
+    "title": "Momentum 252d skip 21 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-50-top-1000-long-short-e1bab6"
+  },
+  {
+    "dsr": 0.6928,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-50-top-1000-long-only-5499a4",
+    "title": "Momentum 126d skip 0 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-50-top-1000-long-only-5499a4"
+  },
+  {
+    "dsr": 0.6889,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-20-top-500-long-only-6b874c",
+    "title": "Momentum 252d skip 21 \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-20-top-500-long-only-6b874c"
+  },
+  {
+    "dsr": 0.6837,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "spy-50-200-moving-average-trend-417064",
+    "title": "SPY 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/spy-50-200-moving-average-trend-417064"
+  },
+  {
+    "dsr": 0.6801,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-20-top-500-long-short-210616",
+    "title": "Momentum 126d skip 21 \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-20-top-500-long-short-210616"
+  },
+  {
+    "dsr": 0.6771,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-50-top-1000-long-short-6a8605",
+    "title": "Momentum 252d skip 0 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-50-top-1000-long-short-6a8605"
+  },
+  {
+    "dsr": 0.6712,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "spy-20-100-moving-average-trend-0c0d51",
+    "title": "SPY 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/spy-20-100-moving-average-trend-0c0d51"
+  },
+  {
+    "dsr": 0.6344,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-20-top-1000-long-only-cb732c",
+    "title": "Momentum 252d skip 0 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-20-top-1000-long-only-cb732c"
+  },
+  {
+    "dsr": 0.6262,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-50-top-500-long-short-8f5dca",
+    "title": "Momentum 126d skip 21 \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-50-top-500-long-short-8f5dca"
+  },
+  {
+    "dsr": 0.6261,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-50-top-500-long-short-56ccf4",
+    "title": "Momentum 252d skip 21 \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-50-top-500-long-short-56ccf4"
+  },
+  {
+    "dsr": 0.624,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-20-top-500-long-only-913866",
+    "title": "Momentum 63d skip 21 \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-20-top-500-long-only-913866"
+  },
+  {
+    "dsr": 0.6183,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-50-top-500-long-short-521287",
+    "title": "Momentum 126d skip 0 \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-50-top-500-long-short-521287"
+  },
+  {
+    "dsr": 0.6059,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-50-top-500-long-short-c2512d",
+    "title": "Momentum 252d skip 0 \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-50-top-500-long-short-c2512d"
+  },
+  {
+    "dsr": 0.5892,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-50-top-1000-long-short-520ed0",
+    "title": "Momentum 126d skip 21 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-50-top-1000-long-short-520ed0"
+  },
+  {
+    "dsr": 0.5763,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-50-top-500-long-short-35e1eb",
+    "title": "Momentum 63d skip 0 \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-50-top-500-long-short-35e1eb"
+  },
+  {
+    "dsr": 0.5478,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-20-top-1000-long-only-0743b3",
+    "title": "Momentum 252d skip 21 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-20-top-1000-long-only-0743b3"
+  },
+  {
+    "dsr": 0.5081,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-20-top-1000-long-short-c7ab0a",
+    "title": "Momentum 126d skip 21 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-20-top-1000-long-short-c7ab0a"
+  },
+  {
+    "dsr": 0.5061,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-0-top-20-top-1000-long-short-88a9ae",
+    "title": "Momentum 252d skip 0 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-0-top-20-top-1000-long-short-88a9ae"
+  },
+  {
+    "dsr": 0.4845,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-252d-skip-21-top-20-top-1000-long-short-73eeb3",
+    "title": "Momentum 252d skip 21 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-252d-skip-21-top-20-top-1000-long-short-73eeb3"
+  },
+  {
+    "dsr": 0.4587,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-21-top-20-top-1000-long-only-bf15d4",
+    "title": "Momentum 126d skip 21 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-21-top-20-top-1000-long-only-bf15d4"
+  },
+  {
+    "dsr": 0.454,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-50-top-1000-long-only-a59e09",
+    "title": "Trend quality \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/trend-quality-top-50-top-1000-long-only-a59e09"
+  },
+  {
+    "dsr": 0.4509,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-20-top-500-long-short-619b48",
+    "title": "Momentum 63d skip 21 \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-20-top-500-long-short-619b48"
+  },
+  {
+    "dsr": 0.4506,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-50-top-1000-long-short-d1ef18",
+    "title": "Momentum 126d skip 0 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-50-top-1000-long-short-d1ef18"
+  },
+  {
+    "dsr": 0.447,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-50-top-1000-long-only-d47bf5",
+    "title": "Momentum 63d skip 0 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-50-top-1000-long-only-d47bf5"
+  },
+  {
+    "dsr": 0.4461,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-50-top-500-long-only-747951",
+    "title": "Trend quality \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/trend-quality-top-50-top-500-long-only-747951"
+  },
+  {
+    "dsr": 0.4281,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-20-top-1000-long-only-3da08a",
+    "title": "Momentum 126d skip 0 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-20-top-1000-long-only-3da08a"
+  },
+  {
+    "dsr": 0.4253,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-20-top-1000-long-only-666f5c",
+    "title": "Trend quality \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/trend-quality-top-20-top-1000-long-only-666f5c"
+  },
+  {
+    "dsr": 0.4125,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "sector-momentum-12-month-top-3-of-9-sectors-after-moskowitz-93b4df",
+    "title": "Sector momentum 12-month \u00b7 top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/sector-momentum-12-month-top-3-of-9-sectors-after-moskowitz-93b4df"
+  },
+  {
+    "dsr": 0.3556,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda",
+    "title": "Cross-asset momentum 12-1 \u00b7 top 4 of 16 ETFs (after Asness, Moskowitz & Pedersen 2013)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda"
+  },
+  {
+    "dsr": 0.3542,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "iwm-50-200-moving-average-trend-ad6dbe",
+    "title": "IWM 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/iwm-50-200-moving-average-trend-ad6dbe"
+  },
+  {
+    "dsr": 0.3534,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-20-top-500-long-only-a1123d",
+    "title": "Trend quality \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/trend-quality-top-20-top-500-long-only-a1123d"
+  },
+  {
+    "dsr": 0.3533,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "iwm-20-100-moving-average-trend-8492aa",
+    "title": "IWM 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/iwm-20-100-moving-average-trend-8492aa"
+  },
+  {
+    "dsr": 0.3355,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-50-top-1000-long-short-72c042",
+    "title": "Momentum 63d skip 0 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-50-top-1000-long-short-72c042"
+  },
+  {
+    "dsr": 0.3146,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-50-top-1000-long-only-08c2b3",
+    "title": "Momentum 63d skip 21 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-50-top-1000-long-only-08c2b3"
+  },
+  {
+    "dsr": 0.3124,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b",
+    "title": "Sector momentum 6-month \u00b7 top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b"
+  },
+  {
+    "dsr": 0.3098,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-126d-skip-0-top-20-top-1000-long-short-e4e466",
+    "title": "Momentum 126d skip 0 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-126d-skip-0-top-20-top-1000-long-short-e4e466"
+  },
+  {
+    "dsr": 0.2661,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "betting-against-beta-proxy-low-1-year-volatility-top-50-top-2898f2",
+    "title": "Betting against beta proxy \u00b7 low 1-year volatility \u00b7 top 50 \u00b7 Top 500 \u00b7 long only (after Frazzini & Pedersen 2014, AQR)",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/betting-against-beta-proxy-low-1-year-volatility-top-50-top-2898f2"
+  },
+  {
+    "dsr": 0.2655,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "volatility-scaled-momentum-top-50-top-500-after-barroso-sant-319970",
+    "title": "Volatility-scaled momentum \u00b7 top 50 \u00b7 Top 500 (after Barroso & Santa-Clara 2015)",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/volatility-scaled-momentum-top-50-top-500-after-barroso-sant-319970"
+  },
+  {
+    "dsr": 0.2482,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-50-top-500-long-only-798b06",
+    "title": "Low volatility \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/low-volatility-top-50-top-500-long-only-798b06"
+  },
+  {
+    "dsr": 0.2456,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-20-top-500-long-only-f2aafd",
+    "title": "1-week reversal \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-20-top-500-long-only-f2aafd"
+  },
+  {
+    "dsr": 0.2435,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-50-top-500-long-only-b67639",
+    "title": "1-week reversal \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-50-top-500-long-only-b67639"
+  },
+  {
+    "dsr": 0.2398,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-50-top-500-long-short-05b569",
+    "title": "Momentum 63d skip 21 \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-50-top-500-long-short-05b569"
+  },
+  {
+    "dsr": 0.2186,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-50-top-1000-long-short-aa99d3",
+    "title": "Momentum 63d skip 21 \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-50-top-1000-long-short-aa99d3"
+  },
+  {
+    "dsr": 0.2163,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "eem-20-100-moving-average-trend-5000af",
+    "title": "EEM 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/eem-20-100-moving-average-trend-5000af"
+  },
+  {
+    "dsr": 0.2147,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "eem-50-200-moving-average-trend-94bd5e",
+    "title": "EEM 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/eem-50-200-moving-average-trend-94bd5e"
+  },
+  {
+    "dsr": 0.2144,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-20-top-1000-long-short-785997",
+    "title": "Momentum 63d skip 21 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-20-top-1000-long-short-785997"
+  },
+  {
+    "dsr": 0.2094,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-20-top-1000-long-short-5cd50a",
+    "title": "Momentum 63d skip 0 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-20-top-1000-long-short-5cd50a"
+  },
+  {
+    "dsr": 0.2054,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "52-week-high-momentum-top-50-top-500-long-only-after-george-9fa2ba",
+    "title": "52-week-high momentum \u00b7 top 50 \u00b7 Top 500 \u00b7 long only (after George & Hwang 2004)",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/52-week-high-momentum-top-50-top-500-long-only-after-george-9fa2ba"
+  },
+  {
+    "dsr": 0.2024,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-0-top-20-top-1000-long-only-5c0737",
+    "title": "Momentum 63d skip 0 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-0-top-20-top-1000-long-only-5c0737"
+  },
+  {
+    "dsr": 0.2013,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-50-top-500-long-only-6e3ab0",
+    "title": "RSI oversold \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-50-top-500-long-only-6e3ab0"
+  },
+  {
+    "dsr": 0.1994,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-20-top-1000-long-only-f23fa0",
+    "title": "RSI oversold \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-20-top-1000-long-only-f23fa0"
+  },
+  {
+    "dsr": 0.1702,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "xle-20-100-moving-average-trend-8d8d05",
+    "title": "XLE 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/xle-20-100-moving-average-trend-8d8d05"
+  },
+  {
+    "dsr": 0.1685,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "xle-50-200-moving-average-trend-cac4dc",
+    "title": "XLE 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/xle-50-200-moving-average-trend-cac4dc"
+  },
+  {
+    "dsr": 0.1641,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-20-top-1000-long-short-a4c6de",
+    "title": "Trend quality \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/trend-quality-top-20-top-1000-long-short-a4c6de"
+  },
+  {
+    "dsr": 0.157,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-50-top-1000-long-only-d64414",
+    "title": "RSI oversold \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-50-top-1000-long-only-d64414"
+  },
+  {
+    "dsr": 0.1498,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "efa-20-100-moving-average-trend-b1d363",
+    "title": "EFA 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/efa-20-100-moving-average-trend-b1d363"
+  },
+  {
+    "dsr": 0.148,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "efa-50-200-moving-average-trend-c52fff",
+    "title": "EFA 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/efa-50-200-moving-average-trend-c52fff"
+  },
+  {
+    "dsr": 0.1474,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-50-top-1000-long-short-b20d5e",
+    "title": "Trend quality \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/trend-quality-top-50-top-1000-long-short-b20d5e"
+  },
+  {
+    "dsr": 0.1456,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "xlf-20-100-moving-average-trend-3c0690",
+    "title": "XLF 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/xlf-20-100-moving-average-trend-3c0690"
+  },
+  {
+    "dsr": 0.144,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "xlf-50-200-moving-average-trend-10666a",
+    "title": "XLF 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/xlf-50-200-moving-average-trend-10666a"
+  },
+  {
+    "dsr": 0.1316,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-20-top-500-long-only-69903a",
+    "title": "RSI oversold \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-20-top-500-long-only-69903a"
+  },
+  {
+    "dsr": 0.1316,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-20-top-500-long-short-d14106",
+    "title": "Trend quality \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/trend-quality-top-20-top-500-long-short-d14106"
+  },
+  {
+    "dsr": 0.1302,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "commodity-momentum-12-1-top-4-of-13-commodity-etfs-after-mif-b37817",
+    "title": "Commodity momentum 12-1 \u00b7 top 4 of 13 commodity ETFs (after Miffre & Rallis 2007)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/commodity-momentum-12-1-top-4-of-13-commodity-etfs-after-mif-b37817"
+  },
+  {
+    "dsr": 0.1265,
+    "family": "momentum",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "momentum-63d-skip-21-top-20-top-1000-long-only-fdae00",
+    "title": "Momentum 63d skip 21 \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/momentum-63d-skip-21-top-20-top-1000-long-only-fdae00"
+  },
+  {
+    "dsr": 0.1202,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-50-top-1000-long-only-9cfe26",
+    "title": "1-week reversal \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-50-top-1000-long-only-9cfe26"
+  },
+  {
+    "dsr": 0.1189,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "trend-quality-top-50-top-500-long-short-c781ea",
+    "title": "Trend quality \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/trend-quality-top-50-top-500-long-short-c781ea"
+  },
+  {
+    "dsr": 0.0976,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-20-top-1000-long-only-925d06",
+    "title": "1-week reversal \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-20-top-1000-long-only-925d06"
+  },
+  {
+    "dsr": 0.0818,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-50-top-1000-long-only-39f53e",
+    "title": "Low volatility \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/low-volatility-top-50-top-1000-long-only-39f53e"
+  },
+  {
+    "dsr": 0.071,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "short-term-reversal-sectors-bottom-3-of-9-last-month-after-l-a21255",
+    "title": "Short-term reversal \u00b7 sectors \u00b7 bottom 3 of 9 last month (after Lehmann 1990 and Lo & MacKinlay 1990)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/short-term-reversal-sectors-bottom-3-of-9-last-month-after-l-a21255"
+  },
+  {
+    "dsr": 0.0708,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-20-top-500-long-only-7d9703",
+    "title": "1-month reversal \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-20-top-500-long-only-7d9703"
+  },
+  {
+    "dsr": 0.0703,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-20-top-500-long-short-b2934b",
+    "title": "1-week reversal \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-20-top-500-long-short-b2934b"
+  },
+  {
+    "dsr": 0.0646,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-50-top-500-long-only-1b0d80",
+    "title": "1-month reversal \u00b7 top 50 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-50-top-500-long-only-1b0d80"
+  },
+  {
+    "dsr": 0.0596,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-20-top-1000-long-only-967b98",
+    "title": "1-month reversal \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-20-top-1000-long-only-967b98"
+  },
+  {
+    "dsr": 0.0539,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-50-top-1000-long-short-486a75",
+    "title": "Low volatility \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/low-volatility-top-50-top-1000-long-short-486a75"
+  },
+  {
+    "dsr": 0.051,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-20-top-500-long-short-302b45",
+    "title": "Low volatility \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/low-volatility-top-20-top-500-long-short-302b45"
+  },
+  {
+    "dsr": 0.0461,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-20-top-1000-long-short-8349a3",
+    "title": "1-month reversal \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-20-top-1000-long-short-8349a3"
+  },
+  {
+    "dsr": 0.0448,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad",
+    "title": "Cross-asset momentum 12-1 \u00b7 long/short 16 ETFs (after Asness, Moskowitz & Pedersen 2013)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad"
+  },
+  {
+    "dsr": 0.0434,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-20-top-500-long-only-e3fa09",
+    "title": "Low volatility \u00b7 top 20 \u00b7 Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/low-volatility-top-20-top-500-long-only-e3fa09"
+  },
+  {
+    "dsr": 0.0434,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-50-top-500-long-short-3d5b9c",
+    "title": "Low volatility \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/low-volatility-top-50-top-500-long-short-3d5b9c"
+  },
+  {
+    "dsr": 0.0431,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-50-top-1000-long-only-b12803",
+    "title": "1-month reversal \u00b7 top 50 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-50-top-1000-long-only-b12803"
+  },
+  {
+    "dsr": 0.0423,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-50-top-500-long-short-84b105",
+    "title": "1-week reversal \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-50-top-500-long-short-84b105"
+  },
+  {
+    "dsr": 0.0398,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-20-top-500-long-short-6e74e5",
+    "title": "RSI oversold \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-20-top-500-long-short-6e74e5"
+  },
+  {
+    "dsr": 0.0368,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-50-top-500-long-short-7da366",
+    "title": "RSI oversold \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-50-top-500-long-short-7da366"
+  },
+  {
+    "dsr": 0.0349,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "tlt-20-100-moving-average-trend-9a79b0",
+    "title": "TLT 20/100 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/tlt-20-100-moving-average-trend-9a79b0"
+  },
+  {
+    "dsr": 0.0348,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "tlt-50-200-moving-average-trend-a66590",
+    "title": "TLT 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/tlt-50-200-moving-average-trend-a66590"
+  },
+  {
+    "dsr": 0.0331,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-20-top-1000-long-short-4c2efa",
+    "title": "RSI oversold \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-20-top-1000-long-short-4c2efa"
+  },
+  {
+    "dsr": 0.0308,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-20-top-1000-long-short-cb099c",
+    "title": "Low volatility \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/low-volatility-top-20-top-1000-long-short-cb099c"
+  },
+  {
+    "dsr": 0.0294,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-20-top-1000-long-short-f7516e",
+    "title": "1-week reversal \u00b7 top 20 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-20-top-1000-long-short-f7516e"
+  },
+  {
+    "dsr": 0.0262,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015",
+    "title": "Commodity momentum 12-1 \u00b7 long/short 13 commodity ETFs (after Miffre & Rallis 2007)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015"
+  },
+  {
+    "dsr": 0.0186,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-20-top-500-long-short-b457eb",
+    "title": "1-month reversal \u00b7 top 20 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-20-top-500-long-short-b457eb"
+  },
+  {
+    "dsr": 0.0181,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-week-reversal-top-50-top-1000-long-short-3e5a0d",
+    "title": "1-week reversal \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-week-reversal-top-50-top-1000-long-short-3e5a0d"
+  },
+  {
+    "dsr": 0.0149,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "rsi-oversold-top-50-top-1000-long-short-a63593",
+    "title": "RSI oversold \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/rsi-oversold-top-50-top-1000-long-short-a63593"
+  },
+  {
+    "dsr": 0.0112,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "52-week-high-momentum-top-50-top-500-long-short-after-george-e02acd",
+    "title": "52-week-high momentum \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short (after George & Hwang 2004)",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/52-week-high-momentum-top-50-top-500-long-short-after-george-e02acd"
+  },
+  {
+    "dsr": 0.003,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-50-top-1000-long-short-d8caf2",
+    "title": "1-month reversal \u00b7 top 50 \u00b7 Top 1000 \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-50-top-1000-long-short-d8caf2"
+  },
+  {
+    "dsr": 0.0016,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "low-volatility-top-20-top-1000-long-only-bac42e",
+    "title": "Low volatility \u00b7 top 20 \u00b7 Top 1000 \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/low-volatility-top-20-top-1000-long-only-bac42e"
+  },
+  {
+    "dsr": 0.0015,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "1-month-reversal-top-50-top-500-long-short-63b0d6",
+    "title": "1-month reversal \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/1-month-reversal-top-50-top-500-long-short-63b0d6"
+  },
+  {
+    "dsr": 0.0004,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "betting-against-beta-proxy-low-1-year-volatility-top-50-top-1bd36c",
+    "title": "Betting against beta proxy \u00b7 low 1-year volatility \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short (after Frazzini & Pedersen 2014, AQR)",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/betting-against-beta-proxy-low-1-year-volatility-top-50-top-1bd36c"
+  },
+  {
+    "dsr": 0.0,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "bitcoin-50-200-moving-average-trend-2a424b",
+    "title": "Bitcoin 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/bitcoin-50-200-moving-average-trend-2a424b"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2",
+    "title": "Crypto cross-sectional momentum \u00b7 4-week \u00b7 top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da",
+    "title": "Crypto low volatility \u00b7 3 lowest-volatility of 15 coins",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2",
+    "title": "Crypto time-series momentum \u00b7 4-week \u00b7 15 coins, cash otherwise",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084",
+    "title": "Currency momentum \u00b7 euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "dividend-yield-top-50-of-the-top-500-long-only-8e4326",
+    "title": "Dividend yield \u00b7 top 50 of the Top 500 \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-only-8e4326"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "dividend-yield-top-50-of-the-top-500-long-short-4347a6",
+    "title": "Dividend yield \u00b7 top 50 of the Top 500 \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/dividend-yield-top-50-of-the-top-500-long-short-4347a6"
+  },
+  {
+    "dsr": 0.0,
+    "family": "ma_cross",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "ethereum-50-200-moving-average-trend-86a176",
+    "title": "Ethereum 50/200 moving-average trend",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/ethereum-50-200-moving-average-trend-86a176"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-3a6bc8",
+    "title": "Magic formula \u00b7 EBITDA/EV plus ROE \u00b7 top 50 of the Top 500 (after Greenblatt 2005) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-3a6bc8"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-d3d059",
+    "title": "Magic formula \u00b7 EBITDA/EV plus ROE \u00b7 top 50 of the Top 500 (after Greenblatt 2005) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-d3d059"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56",
+    "title": "Managed-futures trend \u00b7 1, 3 and 12-month blend \u00b7 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/managed-futures-trend-1-3-and-12-month-blend-23-futures-etfs-1a2e56"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d",
+    "title": "Managed-futures trend \u00b7 12-month \u00b7 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "multi-asset-trend-following-6-and-12-month-16-etfs-after-ham-6c2015",
+    "title": "Multi-asset trend following \u00b7 6 and 12 month \u00b7 16 ETFs (after Hamill, Rattray & Van Hemert 2016, Man Group)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/multi-asset-trend-following-6-and-12-month-16-etfs-after-ham-6c2015"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "multi-factor-defensive-value-quality-momentum-low-volatility-570a20",
+    "title": "Multi-factor defensive \u00b7 value, quality, momentum, low volatility \u00b7 top 50 of the Top 500 (after Man Group and AQR style premia) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/multi-factor-defensive-value-quality-momentum-low-volatility-570a20"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "multi-factor-defensive-value-quality-momentum-low-volatility-d26442",
+    "title": "Multi-factor defensive \u00b7 value, quality, momentum, low volatility \u00b7 top 50 of the Top 500 (after Man Group and AQR style premia) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/multi-factor-defensive-value-quality-momentum-low-volatility-d26442"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "quality-high-roe-low-leverage-top-50-of-the-top-500-after-as-9f2796",
+    "title": "Quality \u00b7 high ROE, low leverage \u00b7 top 50 of the Top 500 (after Asness, Frazzini & Pedersen 2019, AQR) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/quality-high-roe-low-leverage-top-50-of-the-top-500-after-as-9f2796"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "quality-high-roe-low-leverage-top-50-of-the-top-500-after-as-e57455",
+    "title": "Quality \u00b7 high ROE, low leverage \u00b7 top 50 of the Top 500 (after Asness, Frazzini & Pedersen 2019, AQR) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/quality-high-roe-low-leverage-top-50-of-the-top-500-after-as-e57455"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "size-smallest-100-of-the-top-1000-by-market-value-after-banz-435aa0",
+    "title": "Size \u00b7 smallest 100 of the Top 1000 by market value (after Banz 1981) \u00b7 long/short",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/size-smallest-100-of-the-top-1000-by-market-value-after-banz-435aa0"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "size-smallest-100-of-the-top-1000-by-market-value-after-banz-884945",
+    "title": "Size \u00b7 smallest 100 of the Top 1000 by market value (after Banz 1981) \u00b7 long only",
+    "universe": "top1000",
+    "url": "https://data.finzdata.com/s/size-smallest-100-of-the-top-1000-by-market-value-after-banz-884945"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "time-series-momentum-1-month-16-asset-etfs-after-moskowitz-o-f9bd3d",
+    "title": "Time-series momentum 1-month \u00b7 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/time-series-momentum-1-month-16-asset-etfs-after-moskowitz-o-f9bd3d"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "time-series-momentum-12-month-16-asset-etfs-after-moskowitz-1018a6",
+    "title": "Time-series momentum 12-month \u00b7 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/time-series-momentum-12-month-16-asset-etfs-after-moskowitz-1018a6"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "time-series-momentum-3-month-16-asset-etfs-after-moskowitz-o-aeea42",
+    "title": "Time-series momentum 3-month \u00b7 16 asset ETFs (after Moskowitz, Ooi & Pedersen 2012, AQR)",
+    "universe": "custom",
+    "url": "https://data.finzdata.com/s/time-series-momentum-3-month-16-asset-etfs-after-moskowitz-o-aeea42"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-and-momentum-book-to-market-plus-12-1-momentum-top-50-acca74",
+    "title": "Value and momentum \u00b7 book-to-market plus 12-1 momentum \u00b7 top 50 of the Top 500 (after Asness, Moskowitz & Pedersen 2013, AQR) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-and-momentum-book-to-market-plus-12-1-momentum-top-50-acca74"
+  },
+  {
+    "dsr": 0.0,
+    "family": "expr",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-and-momentum-book-to-market-plus-12-1-momentum-top-50-feb8ea",
+    "title": "Value and momentum \u00b7 book-to-market plus 12-1 momentum \u00b7 top 50 of the Top 500 (after Asness, Moskowitz & Pedersen 2013, AQR) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-and-momentum-book-to-market-plus-12-1-momentum-top-50-feb8ea"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-book-to-market-top-50-of-the-top-500-after-fama-french-5fa648",
+    "title": "Value \u00b7 book-to-market \u00b7 top 50 of the Top 500 (after Fama & French 1992, the HML factor) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-book-to-market-top-50-of-the-top-500-after-fama-french-5fa648"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-book-to-market-top-50-of-the-top-500-after-fama-french-b81beb",
+    "title": "Value \u00b7 book-to-market \u00b7 top 50 of the Top 500 (after Fama & French 1992, the HML factor) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-book-to-market-top-50-of-the-top-500-after-fama-french-b81beb"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-7d5a40",
+    "title": "Value \u00b7 earnings yield \u00b7 top 50 of the Top 500 (after Basu 1977; Fama & French 1992) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-7d5a40"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-e6ad2f",
+    "title": "Value \u00b7 earnings yield \u00b7 top 50 of the Top 500 (after Basu 1977; Fama & French 1992) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-earnings-yield-top-50-of-the-top-500-after-basu-1977-f-e6ad2f"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-28b33a",
+    "title": "Value \u00b7 EBITDA to enterprise value \u00b7 top 50 of the Top 500 (after Loughran & Wellman 2011) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-28b33a"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-381df4",
+    "title": "Value \u00b7 EBITDA to enterprise value \u00b7 top 50 of the Top 500 (after Loughran & Wellman 2011) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-381df4"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-427cc1",
+    "title": "Value \u00b7 sales yield \u00b7 top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) \u00b7 long only",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-427cc1"
+  },
+  {
+    "dsr": 0.0,
+    "family": "factor",
+    "forward_days": 0,
+    "forward_sharpe": 0.0,
+    "slug": "value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-48be28",
+    "title": "Value \u00b7 sales yield \u00b7 top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) \u00b7 long/short",
+    "universe": "top500",
+    "url": "https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-48be28"
+  }
+]

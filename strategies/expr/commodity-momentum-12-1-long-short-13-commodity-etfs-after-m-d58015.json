@@ -1,0 +1,38 @@
+{
+  "description": "Long the 3 strongest and short the 3 weakest commodity ETFs by 12-1 month return, the long/short form tested in the paper. Falsified if the spread is not positive after 10 bps costs.",
+  "dsr": 0.0262,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "commodity-momentum-12-1-long-short-13-commodity-etfs-after-m-d58015",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 3,
+    "universe": [
+      "GLD",
+      "SLV",
+      "CPER",
+      "PALL",
+      "PPLT",
+      "USO",
+      "BNO",
+      "UGA",
+      "UNG",
+      "DBA",
+      "CORN",
+      "WEAT",
+      "SOYB"
+    ]
+  },
+  "title": "Commodity momentum 12-1 \u00b7 long/short 13 commodity ETFs (after Miffre & Rallis 2007)",
+  "universe": "custom"
+}

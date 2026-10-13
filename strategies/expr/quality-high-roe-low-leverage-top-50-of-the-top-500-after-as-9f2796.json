@@ -1,0 +1,24 @@
+{
+  "description": "'Quality Minus Junk': profitable, safely financed companies earn more than their price implies. Proxy: rank of return on equity minus rank of debt to equity. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "quality-high-roe-low-leverage-top-50-of-the-top-500-after-as-9f2796",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(roe) - rank(leverage)",
+      "type": "expr"
+    },
+    "start": "2011-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "Quality \u00b7 high ROE, low leverage \u00b7 top 50 of the Top 500 (after Asness, Frazzini & Pedersen 2019, AQR) \u00b7 long only",
+  "universe": "top500"
+}

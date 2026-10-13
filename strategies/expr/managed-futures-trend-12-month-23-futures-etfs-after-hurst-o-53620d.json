@@ -1,0 +1,48 @@
+{
+  "description": "'A Century of Evidence on Trend-Following Investing' found 12-month time-series momentum across equity, bond, commodity and currency futures worked in every decade since 1880. Approximation: futures-based ETFs, long-only, holding every market with a positive 12-month return. Falsified if it does not cut drawdowns versus an equal-weight mix.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "managed-futures-trend-12-month-23-futures-etfs-after-hurst-o-53620d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "where(ret(252), ret(252), log(-1))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 23,
+    "universe": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "TLT",
+      "IEF",
+      "SHY",
+      "GLD",
+      "SLV",
+      "CPER",
+      "PALL",
+      "PPLT",
+      "USO",
+      "BNO",
+      "UGA",
+      "UNG",
+      "DBA",
+      "CORN",
+      "WEAT",
+      "SOYB",
+      "DBC",
+      "UUP",
+      "FXE",
+      "FXY"
+    ]
+  },
+  "title": "Managed-futures trend \u00b7 12-month \u00b7 23 futures ETFs (after Hurst, Ooi & Pedersen 2017, AQR)",
+  "universe": "custom"
+}

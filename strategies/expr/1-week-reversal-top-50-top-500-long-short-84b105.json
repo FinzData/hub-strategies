@@ -1,0 +1,24 @@
+{
+  "description": "Short-term reversal: last week's losers tend to bounce as liquidity providers are paid for absorbing order-flow imbalances. Falsified if returns vanish after realistic trading costs or in the forward record.",
+  "dsr": 0.0423,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "1-week-reversal-top-50-top-500-long-short-84b105",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "rank(-ret(5))",
+      "type": "expr"
+    },
+    "start": "2005-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "1-week reversal \u00b7 top 50 \u00b7 Top 500 \u00b7 long/short",
+  "universe": "top500"
+}

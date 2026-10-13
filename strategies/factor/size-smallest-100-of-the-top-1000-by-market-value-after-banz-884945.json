@@ -1,0 +1,25 @@
+{
+  "description": "Smaller listed companies earn a premium over larger ones. Disputed since the 1980s; included as a test. Fundamentals are point-in-time: only figures filed on or before each rebalance are used. Falsified if it does not beat the equal-weight benchmark after 10 bps costs.",
+  "dsr": 0.0,
+  "family": "factor",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "size-smallest-100-of-the-top-1000-by-market-value-after-banz-884945",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "ascending": true,
+      "field": "log_mcap",
+      "type": "factor"
+    },
+    "start": "2011-01-01",
+    "top_n": 100,
+    "universe": "top1000"
+  },
+  "title": "Size \u00b7 smallest 100 of the Top 1000 by market value (after Banz 1981) \u00b7 long only",
+  "universe": "top1000"
+}

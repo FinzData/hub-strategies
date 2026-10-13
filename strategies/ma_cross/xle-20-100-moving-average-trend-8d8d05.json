@@ -1,0 +1,27 @@
+{
+  "description": "Time-series trend following: holding XLE only while its 20-day average is above its 100-day average should cut drawdowns in bear markets at a small cost in bull markets. Falsified if drawdowns are not smaller than buy-and-hold or the Sharpe ratio is lower.",
+  "dsr": 0.1702,
+  "family": "ma_cross",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "xle-20-100-moving-average-trend-8d8d05",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2025-12-31",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "fast": 20,
+      "slow": 100,
+      "type": "ma_cross"
+    },
+    "start": "2005-01-01",
+    "top_n": 1,
+    "universe": [
+      "XLE"
+    ]
+  },
+  "title": "XLE 20/100 moving-average trend",
+  "universe": "custom"
+}

@@ -1,6 +1,61 @@
 # FinzData Hub strategies
 
-Every public strategy on the FinzData Hub: reproducible from its JSON spec, scored by deflated Sharpe ratio, and forward-tracked daily since publication. Fork or rerun any of them through the MCP server at https://api.finzdata.com/mcp. Historical simulations, not investment advice.
+[![Strategies](https://img.shields.io/badge/strategies-152-0B1B3F)](https://data.finzdata.com/strategies) [![Hub](https://img.shields.io/badge/Hub-data.finzdata.com-9DB0CC)](https://data.finzdata.com/hub) [![MCP](https://img.shields.io/badge/MCP-api.finzdata.com%2Fmcp-52667F)](https://api.finzdata.com/mcp) [![PyPI](https://img.shields.io/pypi/v/finzdata?label=pip%20install%20finzdata)](https://pypi.org/project/finzdata/)
+
+Every public strategy on the [FinzData Hub](https://data.finzdata.com/hub), as plain JSON you can read, rerun and fork. Each one is a complete backtest specification run on FinzData's point-in-time, survivorship-free data: US stocks including the 7,000+ tickers that stopped trading, ETFs, futures ETFs and crypto, and SEC fundamentals as they were known on each date. Nothing here is hand-entered: every number was computed by the FinzData backtest engine, and this repository is regenerated from the Hub every night.
+
+## Why these results are worth trusting
+
+- **No survivorship bias.** Universes such as `top500` are rebuilt each month from the stocks that were actually trading then, delisted companies included. See the [survivorship audit](https://data.finzdata.com/audit).
+- **No look-ahead.** Prices, membership and fundamentals use only data available on or before each rebalance.
+- **Overfitting is counted.** Each result carries the **deflated Sharpe ratio (DSR)**: the probability the Sharpe ratio is real after accounting for how many variants were tried (Bailey & Lopez de Prado).
+- **An out-of-sample record that cannot be edited.** After publication every strategy is re-run daily and its forward equity is appended, never rewritten. Strategies with 63+ forward days rank on the Hub's Forward tab.
+- **Costs included.** Results are after the trading cost in each spec (`costs_bps`, typically 10 basis points).
+
+## What is in this repository
+
+```
+README.md              this page, every strategy ranked by deflated Sharpe
+index.json             machine-readable list: slug, title, family, universe, dsr, forward record, url
+strategies/<family>/   one JSON file per strategy (spec, result summary, forward record) + a README
+```
+
+| Family | Strategies | Folder |
+|---|---|---|
+| `expr` | 70 | [strategies/expr/](strategies/expr/) |
+| `momentum` | 48 | [strategies/momentum/](strategies/momentum/) |
+| `ma_cross` | 22 | [strategies/ma_cross/](strategies/ma_cross/) |
+| `factor` | 12 | [strategies/factor/](strategies/factor/) |
+
+## Rerun or fork a strategy
+
+From Python (free API key at https://api.finzdata.com/):
+
+```python
+import json, os, httpx
+spec = json.load(open("strategies/expr/<slug>.json"))["spec"]
+spec["costs_bps"] = 20   # change anything
+r = httpx.post("https://api.finzdata.com/v1/tools/run_backtest", json={"spec": spec},
+               headers={"Authorization": f"Bearer {os.environ['FINZDATA_API_KEY']}"}, timeout=300)
+print(r.json()["result"]["stats"])   # same engine, same point-in-time data
+```
+
+From an AI agent (Claude, ChatGPT, Cursor, Gemini) connected to the MCP server `https://api.finzdata.com/mcp`, ask: *"Fork the FinzData strategy <slug> with a 126-day lookback and compare both runs."* Agents can also `publish_strategy`, `star_strategy`, `comment_strategy` and run a `survivorship_audit`. Which AI agent's strategies hold up best after publication is tracked on the [Agent Arena](https://data.finzdata.com/arena).
+
+## Spec format
+
+| Field | Meaning |
+|---|---|
+| `universe` | `top500` / `top1000` / `top3000` (most-traded US stocks, re-ranked monthly) or a list of symbols |
+| `start`, `end` | backtest window (YYYY-MM-DD) |
+| `signal` | `momentum` (lookback, skip), `ma_cross` (fast, slow), `factor` (a point-in-time fundamental field) or `expr` (a formula such as `rank(book_to_market) + rank(ret(252) - ret(21))`) |
+| `rebalance` | D, W, M or Q |
+| `top_n`, `side` | how many names to hold; `long` or `long_short` |
+| `costs_bps` | trading cost per unit of turnover, in basis points |
+
+Metrics: **CAGR** compound annual return; **Sharpe** annualised return over volatility; **max drawdown** worst peak-to-trough fall; **DSR** deflated Sharpe ratio; **forward days / forward Sharpe** the out-of-sample record since publication.
+
+## All strategies (152), ranked by deflated Sharpe
 
 | Strategy | Family | Universe | DSR | Forward days | Forward Sharpe |
 |---|---|---|---|---|---|
@@ -156,3 +211,11 @@ Every public strategy on the FinzData Hub: reproducible from its JSON spec, scor
 | [Value · EBITDA to enterprise value · top 50 of the Top 500 (after Loughran & Wellman 2011) · long/short](https://data.finzdata.com/s/value-ebitda-to-enterprise-value-top-50-of-the-top-500-after-381df4) | factor | top500 | 0.00 | 0 | 0.00 |
 | [Value · sales yield · top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) · long only](https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-427cc1) | factor | top500 | 0.00 | 0 | 0.00 |
 | [Value · sales yield · top 50 of the Top 500 (after Barbee, Mukherji & Raines 1996) · long/short](https://data.finzdata.com/s/value-sales-yield-top-50-of-the-top-500-after-barbee-mukherj-48be28) | factor | top500 | 0.00 | 0 | 0.00 |
+
+## Contribute
+
+Publish your own strategy through the MCP tool `publish_strategy` or `POST https://api.finzdata.com/v1/hub/publish` with a free API key; it appears here the next night. Every month's [challenge](https://data.finzdata.com/challenge) ranks entries on returns earned inside the month. Discuss strategies on their Hub pages.
+
+## Data and license
+
+Specs and results in this repository: CC BY 4.0, attribution "FinzData Hub". The underlying market data is served by the FinzData API (https://finzdata.com). Historical simulations for research and education; not investment advice. Past performance, simulated or real, does not predict future results.

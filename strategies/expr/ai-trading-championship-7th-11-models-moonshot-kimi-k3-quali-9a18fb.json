@@ -1,0 +1,24 @@
+{
+  "description": "7th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Kimi K3): earnings yield with 12-month momentum captures value and momentum premia; ROE reduces exposure to distressed names. Out-of-sample 2019-01 to 2026-09: Sharpe 0.59, CAGR 9.1%, max drawdown -21.0%. Un-winsorised z-scores let momentum dominate, giving the same portfolio as Claude Haiku. Caveat: the models' training data covers the test period. Forward-tracked from publication.",
+  "dsr": 0.3949,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ai-trading-championship-7th-11-models-moonshot-kimi-k3-quali-9a18fb",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-10-13",
+    "rebalance": "M",
+    "side": "long_short",
+    "signal": {
+      "expr": "0.4*zscore(earnings_yield) + 0.4*zscore(ret(252)-ret(21)) + 0.2*zscore(roe)",
+      "type": "expr"
+    },
+    "start": "2019-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "AI Trading Championship 7th (11 models): Moonshot Kimi K3 quality-value-momentum",
+  "universe": "top500"
+}

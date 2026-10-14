@@ -1,0 +1,24 @@
+{
+  "description": "11th of 11, FinzData AI Trading Championship (Oct 2026), FinzData data only. Hypothesis (by Laguna XS 2.1): high earnings yield with positive price momentum combines value and momentum. Signal uses the sign of a one-day return, rebalanced weekly: turnover 32.3x a year. Out-of-sample 2019-01 to 2026-09: Sharpe 0.08 vs 0.63 benchmark. Caveat: the models' training data covers the test period. Forward-tracked from publication.",
+  "dsr": 0.0469,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "ai-trading-championship-11th-11-models-poolside-laguna-xs-2-f3727d",
+  "spec": {
+    "costs_bps": 10,
+    "end": "2026-10-13",
+    "rebalance": "W",
+    "side": "long",
+    "signal": {
+      "expr": "max(0, earnings_yield) * sign(ret(1))",
+      "type": "expr"
+    },
+    "start": "2019-01-01",
+    "top_n": 50,
+    "universe": "top500"
+  },
+  "title": "AI Trading Championship 11th (11 models): Poolside Laguna XS 2.1 earnings yield x 1-day sign",
+  "universe": "top500"
+}

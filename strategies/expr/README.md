@@ -1,13 +1,22 @@
-# Formula strategies (70 strategies)
+# Formula strategies (81 strategies)
 
 Signals written as formulas over prices and fundamentals: low volatility, 52-week high, value plus momentum, quality, multi-factor, time-series momentum, managed-futures trend and crypto.
 
 | Strategy | Family | Universe | DSR | Forward days | Forward Sharpe |
 |---|---|---|---|---|---|
+| [AI Trading Championship winner: Nemotron-3 Ultra quality-value-momentum](https://data.finzdata.com/s/ai-trading-championship-winner-nemotron-3-ultra-quality-valu-ac4c37) | expr | top500 | 0.66 | 0 | 0.00 |
+| [AI Trading Championship 2nd: Claude Fable quality-momentum blend](https://data.finzdata.com/s/ai-trading-championship-2nd-claude-fable-quality-momentum-bl-4c837e) | expr | top500 | 0.59 | 0 | 0.00 |
+| [AI Trading Championship 2nd (11 models): Meta Muse Glimmer quality-value blend](https://data.finzdata.com/s/ai-trading-championship-2nd-11-models-meta-muse-glimmer-qual-f84ed1) | expr | top500 | 0.56 | 0 | 0.00 |
+| [AI Trading Championship 3rd: GPT-OSS-20B short-term momentum + value](https://data.finzdata.com/s/ai-trading-championship-3rd-gpt-oss-20b-short-term-momentum-321dcf) | expr | top500 | 0.54 | 0 | 0.00 |
 | [Trend quality · top 50 · Top 1000 · long only](https://data.finzdata.com/s/trend-quality-top-50-top-1000-long-only-a59e09) | expr | top1000 | 0.45 | 0 | 0.00 |
 | [Trend quality · top 50 · Top 500 · long only](https://data.finzdata.com/s/trend-quality-top-50-top-500-long-only-747951) | expr | top500 | 0.45 | 0 | 0.00 |
 | [Trend quality · top 20 · Top 1000 · long only](https://data.finzdata.com/s/trend-quality-top-20-top-1000-long-only-666f5c) | expr | top1000 | 0.43 | 0 | 0.00 |
+| [AI Trading Championship 5th (11 models): Google Gemma 4 31B value-quality-short momentum](https://data.finzdata.com/s/ai-trading-championship-5th-11-models-google-gemma-4-31b-val-0e4dad) | expr | top1000 | 0.42 | 0 | 0.00 |
 | [Sector momentum 12-month · top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)](https://data.finzdata.com/s/sector-momentum-12-month-top-3-of-9-sectors-after-moskowitz-93b4df) | expr | custom | 0.41 | 0 | 0.00 |
+| [AI Trading Championship 7th (11 models): Moonshot Kimi K3 quality-value-momentum](https://data.finzdata.com/s/ai-trading-championship-7th-11-models-moonshot-kimi-k3-quali-9a18fb) | expr | top500 | 0.39 | 0 | 0.00 |
+| [AI Trading Championship 6th (11 models): Claude Haiku QVM composite](https://data.finzdata.com/s/ai-trading-championship-6th-11-models-claude-haiku-qvm-compo-0f0885) | expr | top500 | 0.39 | 0 | 0.00 |
+| [AI Trading Championship 8th (11 models): NVIDIA Nemotron-3 Super value-momentum](https://data.finzdata.com/s/ai-trading-championship-8th-11-models-nvidia-nemotron-3-supe-9c94aa) | expr | top1000 | 0.39 | 0 | 0.00 |
+| [AI Trading Championship 9th (11 models): Claude Opus quality-value-momentum-low-vol](https://data.finzdata.com/s/ai-trading-championship-9th-11-models-claude-opus-quality-va-bb573a) | expr | top500 | 0.39 | 0 | 0.00 |
 | [Cross-asset momentum 12-1 · top 4 of 16 ETFs (after Asness, Moskowitz & Pedersen 2013)](https://data.finzdata.com/s/cross-asset-momentum-12-1-top-4-of-16-etfs-after-asness-mosk-039cda) | expr | custom | 0.36 | 0 | 0.00 |
 | [Trend quality · top 20 · Top 500 · long only](https://data.finzdata.com/s/trend-quality-top-20-top-500-long-only-a1123d) | expr | top500 | 0.35 | 0 | 0.00 |
 | [Sector momentum 6-month · top 3 of 9 sectors (after Moskowitz & Grinblatt 1999)](https://data.finzdata.com/s/sector-momentum-6-month-top-3-of-9-sectors-after-moskowitz-g-198f5b) | expr | custom | 0.31 | 0 | 0.00 |
@@ -21,6 +30,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [RSI oversold · top 20 · Top 1000 · long only](https://data.finzdata.com/s/rsi-oversold-top-20-top-1000-long-only-f23fa0) | expr | top1000 | 0.20 | 0 | 0.00 |
 | [Trend quality · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/trend-quality-top-20-top-1000-long-short-a4c6de) | expr | top1000 | 0.16 | 0 | 0.00 |
 | [RSI oversold · top 50 · Top 1000 · long only](https://data.finzdata.com/s/rsi-oversold-top-50-top-1000-long-only-d64414) | expr | top1000 | 0.16 | 0 | 0.00 |
+| [AI Trading Championship 10th (11 models): Claude Sonnet momentum-value-quality long-short](https://data.finzdata.com/s/ai-trading-championship-10th-11-models-claude-sonnet-momentu-4c10ef) | expr | top1000 | 0.15 | 0 | 0.00 |
 | [Trend quality · top 50 · Top 1000 · long/short](https://data.finzdata.com/s/trend-quality-top-50-top-1000-long-short-b20d5e) | expr | top1000 | 0.15 | 0 | 0.00 |
 | [RSI oversold · top 20 · Top 500 · long only](https://data.finzdata.com/s/rsi-oversold-top-20-top-500-long-only-69903a) | expr | top500 | 0.13 | 0 | 0.00 |
 | [Trend quality · top 20 · Top 500 · long/short](https://data.finzdata.com/s/trend-quality-top-20-top-500-long-short-d14106) | expr | top500 | 0.13 | 0 | 0.00 |
@@ -36,6 +46,7 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [1-month reversal · top 20 · Top 1000 · long only](https://data.finzdata.com/s/1-month-reversal-top-20-top-1000-long-only-967b98) | expr | top1000 | 0.06 | 0 | 0.00 |
 | [Low volatility · top 50 · Top 1000 · long/short](https://data.finzdata.com/s/low-volatility-top-50-top-1000-long-short-486a75) | expr | top1000 | 0.05 | 0 | 0.00 |
 | [Low volatility · top 20 · Top 500 · long/short](https://data.finzdata.com/s/low-volatility-top-20-top-500-long-short-302b45) | expr | top500 | 0.05 | 0 | 0.00 |
+| [AI Trading Championship 11th (11 models): Poolside Laguna XS 2.1 earnings yield x 1-day sign](https://data.finzdata.com/s/ai-trading-championship-11th-11-models-poolside-laguna-xs-2-f3727d) | expr | top500 | 0.05 | 0 | 0.00 |
 | [1-month reversal · top 20 · Top 1000 · long/short](https://data.finzdata.com/s/1-month-reversal-top-20-top-1000-long-short-8349a3) | expr | top1000 | 0.05 | 0 | 0.00 |
 | [Cross-asset momentum 12-1 · long/short 16 ETFs (after Asness, Moskowitz & Pedersen 2013)](https://data.finzdata.com/s/cross-asset-momentum-12-1-long-short-16-etfs-after-asness-mo-0639ad) | expr | custom | 0.04 | 0 | 0.00 |
 | [Low volatility · top 20 · Top 500 · long only](https://data.finzdata.com/s/low-volatility-top-20-top-500-long-only-e3fa09) | expr | top500 | 0.04 | 0 | 0.00 |
@@ -56,9 +67,9 @@ Signals written as formulas over prices and fundamentals: low volatility, 52-wee
 | [Low volatility · top 20 · Top 1000 · long only](https://data.finzdata.com/s/low-volatility-top-20-top-1000-long-only-bac42e) | expr | top1000 | 0.00 | 0 | 0.00 |
 | [1-month reversal · top 50 · Top 500 · long/short](https://data.finzdata.com/s/1-month-reversal-top-50-top-500-long-short-63b0d6) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Betting against beta proxy · low 1-year volatility · top 50 · Top 500 · long/short (after Frazzini & Pedersen 2014, AQR)](https://data.finzdata.com/s/betting-against-beta-proxy-low-1-year-volatility-top-50-top-1bd36c) | expr | top500 | 0.00 | 0 | 0.00 |
-| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 0 | 0.00 |
-| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 0 | 0.00 |
-| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 0 | 0.00 |
+| [Crypto cross-sectional momentum · 4-week · top 3 of 15 coins (after Liu, Tsyvinski & Wu 2022)](https://data.finzdata.com/s/crypto-cross-sectional-momentum-4-week-top-3-of-15-coins-aft-7e3ee2) | expr | custom | 0.00 | 1 | 0.00 |
+| [Crypto low volatility · 3 lowest-volatility of 15 coins](https://data.finzdata.com/s/crypto-low-volatility-3-lowest-volatility-of-15-coins-2f84da) | expr | custom | 0.00 | 1 | 0.00 |
+| [Crypto time-series momentum · 4-week · 15 coins, cash otherwise](https://data.finzdata.com/s/crypto-time-series-momentum-4-week-15-coins-cash-otherwise-5bd4b2) | expr | custom | 0.00 | 1 | 0.00 |
 | [Currency momentum · euro, yen, dollar index (after Menkhoff, Sarno, Schmeling & Schrimpf 2012)](https://data.finzdata.com/s/currency-momentum-euro-yen-dollar-index-after-menkhoff-sarno-571084) | expr | custom | 0.00 | 0 | 0.00 |
 | [Magic formula · EBITDA/EV plus ROE · top 50 of the Top 500 (after Greenblatt 2005) · long only](https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-3a6bc8) | expr | top500 | 0.00 | 0 | 0.00 |
 | [Magic formula · EBITDA/EV plus ROE · top 50 of the Top 500 (after Greenblatt 2005) · long/short](https://data.finzdata.com/s/magic-formula-ebitda-ev-plus-roe-top-50-of-the-top-500-after-d3d059) | expr | top500 | 0.00 | 0 | 0.00 |

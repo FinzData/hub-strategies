@@ -1,0 +1,24 @@
+{
+  "description": "Sales yield (revenue/price) combined with momentum identifies improving fundamentals at reasonable prices, exploiting analyst underreaction to revenue trends; falsified if sales yield adds no incremental alpha over book-to-market in a combined sort.",
+  "dsr": 0.0,
+  "family": "expr",
+  "forward_days": 0,
+  "forward_return": 0.0,
+  "forward_sharpe": 0.0,
+  "slug": "sales-yield-momentum-12m-skip-1m-top-40-top-1000-long-only-35ff16",
+  "spec": {
+    "costs_bps": 15,
+    "end": "2024-12-31",
+    "rebalance": "M",
+    "side": "long",
+    "signal": {
+      "expr": "rank(sales_yield) + rank(ret(252) - ret(21))",
+      "type": "expr"
+    },
+    "start": "2015-01-01",
+    "top_n": 40,
+    "universe": "top1000"
+  },
+  "title": "Sales Yield Momentum 12M Skip 1M \u00b7 Top 40 \u00b7 Top 1000 \u00b7 Long Only",
+  "universe": "top1000"
+}
